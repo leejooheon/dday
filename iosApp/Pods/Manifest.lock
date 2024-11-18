@@ -1,0 +1,21 @@
+PODS:
+  - MCEmojiPicker (1.2.3)
+
+DEPENDENCIES:
+  - MCEmojiPicker (from `https://github.com/izyumkin/MCEmojiPicker.git`)
+
+EXTERNAL SOURCES:
+  MCEmojiPicker:
+    :git: https://github.com/izyumkin/MCEmojiPicker.git
+
+CHECKOUT OPTIONS:
+  MCEmojiPicker:
+    :commit: 1efd25a6dc31b44c5dd1c46cb64813a891d2df0b
+    :git: https://github.com/izyumkin/MCEmojiPicker.git
+
+SPEC CHECKSUMS:
+  MCEmojiPicker: 6650cfa8d79fc8d71bf77dbed6166f946cee9c96
+
+PODFILE CHECKSUM: 17b1bfc3f9ff0bfe44d82b2b5441f079426582bc
+
+COCOAPODS: 1.16.2

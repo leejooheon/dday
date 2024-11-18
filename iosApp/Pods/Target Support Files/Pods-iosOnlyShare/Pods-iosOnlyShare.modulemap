@@ -1,0 +1,6 @@
+framework module Pods_iosOnlyShare {
+  umbrella header "Pods-iosOnlyShare-umbrella.h"
+
+  export *
+  module * { export * }
+}

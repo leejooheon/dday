@@ -1,0 +1,33 @@
+import kotlin.Long;
+CREATE TABLE ddayEntity(
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    emoji TEXT NOT NULL,
+    annualEvent INTEGER NOT NULL DEFAULT 0,
+    selected INTEGER NOT NULL DEFAULT 1,
+    date INTEGER AS Long NOT NULL DEFAULT 0
+);
+
+getAllDdays:
+SELECT *
+FROM ddayEntity;
+
+getDdayById:
+SELECT *
+FROM ddayEntity
+WHERE id = ?;
+
+insertDday:
+INSERT OR REPLACE
+INTO ddayEntity(
+    id,
+    title,
+    emoji,
+    annualEvent,
+    selected,
+    date
+) VALUES(?, ?, ?, ?, ?, ?);
+
+deleteDdayById:
+DELETE FROM ddayEntity
+WHERE id = ?;

@@ -1,0 +1,1297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CE7B3FD0A76F7B713B214E33ECE50EA /* MCEmojiPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC8F7431BD1C979716CA4D19F79B061 /* MCEmojiPickerView.swift */; };
+		0DC2BBE155C867BFD29BD747BA38B7C0 /* MCTouchableEmojiCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297C2FA2DB497147003C4C7EF236E365 /* MCTouchableEmojiCategoryView.swift */; };
+		11EF29D15495F31FC2F54335E292E1AD /* Pods-iosWidgetExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FC4A46096AB1555A2EFF7C35C02E22 /* Pods-iosWidgetExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1394891F3C78C6EE1C9E9ACD82902F69 /* MCEmojiPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8508C0DAB3DB9B2B0B7C697EB53267 /* MCEmojiPreviewView.swift */; };
+		17718B2616E635026982DCA173C8D41F /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75A20E758A580409383CCD0EEA7E185 /* Bundle+Extension.swift */; };
+		2D5AF15E40664259F9737F4D48091BBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		3FD530EA050C0A0973D72FB94935A738 /* MCEmojiSkinTonePickerContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B6C1F4462050327E5CC4C8AEAC43B8 /* MCEmojiSkinTonePickerContainerView.swift */; };
+		4D96E94031FD398520E01D94689240CF /* MCEmojiPicker-MCEmojiPicker in Resources */ = {isa = PBXBuildFile; fileRef = 5A7DD4CD9DE7CC5B49460871AE3E308B /* MCEmojiPicker-MCEmojiPicker */; };
+		5F8F953732EBDC9F3F5D4D8D036E5945 /* MCPickerArrowDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4AF78CB59496B1C5314C225507EAD /* MCPickerArrowDirection.swift */; };
+		652C1E20F6B37202665B0A0C50DBE0C5 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E7C4CC10C9BB46F2FBB465627C526A /* Array+Extension.swift */; };
+		6D7D32409E0F9B372BE2B1B824BD5B52 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295BCEF31C8FA10B6A604D805E3747CD /* View+Extension.swift */; };
+		70F1F30232AEC179FEE9FFDBA35500F0 /* MCEmojiPickerRepresentableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22B58C6DBA684D229A801AA2F7CC9E /* MCEmojiPickerRepresentableController.swift */; };
+		77CF2237F9F6885AA7AC03935A892A9B /* UICollectionReusableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E62C74E728E7D039E472BD30A7EBA66 /* UICollectionReusableView+Extension.swift */; };
+		83A9ABCB3C557FD2E80972CB1DC473A6 /* MCEmojiSkinTonePickerBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3676BCE8F1C63C86F7F5035057BA6F /* MCEmojiSkinTonePickerBackgroundView.swift */; };
+		870F1BD615296003180386944BD1E5E6 /* MCEmojiPreviewBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE12CE0A556B3CAE6A99EC6F3CDC7C3 /* MCEmojiPreviewBackgroundView.swift */; };
+		8E0F21F34F4B697374CA25ABC673B06E /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A92B84D7A1DEBB956692682760B1CA9 /* Observable.swift */; };
+		933A92144AB2A20488AB26E1EC379B94 /* MCEmojiPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 581B9B49F15C6A553B04044A4242E87A /* MCEmojiPicker-dummy.m */; };
+		9386D70A712B4572BC9517EB59A9677B /* MCEmojiPickerLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E13D54A5D74D978254E33A84F9FE439 /* MCEmojiPickerLocalizable.strings */; };
+		96F15C8A85DD563A586F71FA9558AFE3 /* MCEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2CA74774527489D7D1629D6E906224 /* MCEmoji.swift */; };
+		A5D5699490FCD6736345067811B037DC /* MCEmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F014FDB99CC9F3431382493118B2EDC /* MCEmojiCollectionViewCell.swift */; };
+		A74AA88395B36CDDD3E28AA531803503 /* Pods-iosOnlyShare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FF3863BA1DA6A6140A0CC2160812B /* Pods-iosOnlyShare-dummy.m */; };
+		ADB854693193D03816AA4807394DE34B /* MCEmojiPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECB634B6C8C29697557DEA9AE8EF628 /* MCEmojiPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B522B10CCFBBA2D876398C6E305492F8 /* MCEmojiCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0AE67FB055C15D46136316554A9A30 /* MCEmojiCategory.swift */; };
+		B58F05DC00C3B33D6B76475296AB6DFB /* Pods-iosWidgetExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7AD039C3652F35ACB3BE5D73DBAAA7 /* Pods-iosWidgetExtension-dummy.m */; };
+		B6FF4273DC7D4B45F4BB52992BC8E55D /* NSNotification.Name+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CC0CD0078F82B9CFE9929907B14373 /* NSNotification.Name+Extension.swift */; };
+		B997A64F4BF21AD6BAA8611DBCE3ABC9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B6C9FE77F317B85319F6962BF5B65 /* UIColor+Extension.swift */; };
+		BF9A64F419033EEF34254D5FCCFECDEC /* Pods-dday-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E371E94DF5167E79ACF7EDC6F8149C /* Pods-dday-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8624B717F0138CAF686405FFA2EEE22 /* MCEmojiPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544C5F0AF9DEFF046F0B93E6B56A99A5 /* MCEmojiPickerViewController.swift */; };
+		CD1BD108F1ECE14E8730559E7ECCAF1C /* Pods-iosOnlyShare-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13ABE06A2E3058B64E7D5C3C80BC9564 /* Pods-iosOnlyShare-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D02358D9BD1EA48D659DE07C2F4F051D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		D440B90CFCA67E327F8A5D55B4693D51 /* Pods-dday-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB6C12458C913327F48F0E4499F21CD /* Pods-dday-dummy.m */; };
+		D48D64DBFD357308B3EAA360CA28164A /* MCEmojiSkinTonePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307E2A1F7E16CE8E733CA8FE8015AA50 /* MCEmojiSkinTonePickerView.swift */; };
+		D63A082EC2991C48D1E3A5DB7CFDF532 /* MCEmojiCategoryIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F3546F7DA26462D79D9C02FEA7A023 /* MCEmojiCategoryIconView.swift */; };
+		DD12DAA48944064B35320A4D0525D7E5 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26F5C67B08AC677073CF24A9E5B75EC /* Double+Extension.swift */; };
+		E4F3CB4BFFD8AED8FB88451C7A136907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		F42E072063AC5D16761B8EEFAB0AE870 /* MCEmojiSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41FFE52BBE546BAC3866384C43F4E4 /* MCEmojiSectionHeader.swift */; };
+		F87E4CE6E5E1CC9472E85786DB0CD7D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		FA1164818D29BFEB434D46073C400961 /* MCUnicodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDFFCBDD98C6BC57451C044A0C5EE27 /* MCUnicodeManager.swift */; };
+		FE0E2BED06967216D6B03BEB686AFC12 /* MCEmojiPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0966A7E0ECE764C0ACB6F5AB12EEA2 /* MCEmojiPickerViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F1F78993338DDE12B1E71632F68C677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D5F39FC341979BE00CFA50BF67F8FE8;
+			remoteInfo = "MCEmojiPicker-MCEmojiPicker";
+		};
+		85E19A871971485B30C5E25AD1C78660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D036A9C888B2B93E7063E79B47806DC7;
+			remoteInfo = MCEmojiPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B3676BCE8F1C63C86F7F5035057BA6F /* MCEmojiSkinTonePickerBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCEmojiSkinTonePickerBackgroundView.swift; path = Sources/MCEmojiPicker/View/Views/EmojiSkinTonePickerView/MCEmojiSkinTonePickerBackgroundView.swift; sourceTree = "<group>"; };
+		0C43C3AB50836EF930F83CD01364A9C6 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = "zh-Hans.lproj/MCEmojiPickerLocalizable.strings"; sourceTree = "<group>"; };
+		0E9FE6DFD15D82E201FAC74461215C55 /* Pods-dday-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dday-frameworks.sh"; sourceTree = "<group>"; };
+		1104151E4E48ABBB53EC5DAA42C66729 /* MCEmojiPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCEmojiPicker.debug.xcconfig; sourceTree = "<group>"; };
+		133EEF6BB0A484F798CAED4EDB935E87 /* Pods-iosWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+		13ABE06A2E3058B64E7D5C3C80BC9564 /* Pods-iosOnlyShare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosOnlyShare-umbrella.h"; sourceTree = "<group>"; };
+		13F27A01C95FF203FF1BF901908CCE6E /* Pods-dday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dday.release.xcconfig"; sourceTree = "<group>"; };
+		1579A29E8560D51FB8C2FF021BC5C608 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = hu.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		1612DFA32D949112C7A62AC524EA3224 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = sk.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		17B45969FD499BBD0FF111659BDF03B8 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = "zh-HK.lproj/MCEmojiPickerLocalizable.strings"; sourceTree = "<group>"; };
+		17B6C1F4462050327E5CC4C8AEAC43B8 /* MCEmojiSkinTonePickerContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCEmojiSkinTonePickerContainerView.swift; path = Sources/MCEmojiPicker/View/Views/EmojiSkinTonePickerView/MCEmojiSkinTonePickerContainerView.swift; sourceTree = "<group>"; };
+		1BE9E330FFE693DF0B6C5B75A9CE4F34 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = de.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		1CD4AF78CB59496B1C5314C225507EAD /* MCPickerArrowDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCPickerArrowDirection.swift; path = Sources/MCEmojiPicker/Model/MCPickerArrowDirection.swift; sourceTree = "<group>"; };
+		261B6C9FE77F317B85319F6962BF5B65 /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "Sources/MCEmojiPicker/Common/Extensions/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		27CC23436C019BE6B6182B7EFC5E4C9E /* Pods-iosWidgetExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iosWidgetExtension"; path = Pods_iosWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2913BA69C2A3A78135BAAF047BA4326D /* MCEmojiPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCEmojiPicker.release.xcconfig; sourceTree = "<group>"; };
+		295BCEF31C8FA10B6A604D805E3747CD /* View+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+Extension.swift"; path = "Sources/MCEmojiPicker/Common/Extensions/View+Extension.swift"; sourceTree = "<group>"; };
+		297C2FA2DB497147003C4C7EF236E365 /* MCTouchableEmojiCategoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCTouchableEmojiCategoryView.swift; path = Sources/MCEmojiPicker/View/Views/EmojiCategoryView/MCTouchableEmojiCategoryView.swift; sourceTree = "<group>"; };
+		2A27447911C8C3299282AF431621D166 /* Pods-dday.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dday.modulemap"; sourceTree = "<group>"; };
+		2A92B84D7A1DEBB956692682760B1CA9 /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = Sources/MCEmojiPicker/Bindings/Observable.swift; sourceTree = "<group>"; };
+		2BC8F7431BD1C979716CA4D19F79B061 /* MCEmojiPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCEmojiPickerView.swift; path = Sources/MCEmojiPicker/View/Views/MCEmojiPickerView.swift; sourceTree = "<group>"; };
+		2C213D3694E69A9D29C41CAF728C4787 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = fr.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		2EA93C69ED2EBA51C92442DB5D56D902 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = nb.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		307E2A1F7E16CE8E733CA8FE8015AA50 /* MCEmojiSkinTonePickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCEmojiSkinTonePickerView.swift; path = Sources/MCEmojiPicker/View/Views/EmojiSkinTonePickerView/MCEmojiSkinTonePickerView.swift; sourceTree = "<group>"; };
+		32E7C4CC10C9BB46F2FBB465627C526A /* Array+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extension.swift"; path = "Sources/MCEmojiPicker/Common/Extensions/Array+Extension.swift"; sourceTree = "<group>"; };
+		335FD84A46059C942C2323518D5A6D5F /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = ko.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E3685108281B5E719B70D51141C57E2 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = he.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		40642B55439BD90207D8BF011FBDA7D9 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = vi.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		4126E9DC4F615187C4E893132E068346 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = ar.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		48FC4A46096AB1555A2EFF7C35C02E22 /* Pods-iosWidgetExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosWidgetExtension-umbrella.h"; sourceTree = "<group>"; };
+		4CCA8B3EEFDE34814FA033E237B6A4DD /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = th.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		4DDFFCBDD98C6BC57451C044A0C5EE27 /* MCUnicodeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCUnicodeManager.swift; path = Sources/MCEmojiPicker/Services/MCUnicodeManager.swift; sourceTree = "<group>"; };
+		516311619F5D52CC3DD90F0F0FE94F5E /* Pods-iosWidgetExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosWidgetExtension-Info.plist"; sourceTree = "<group>"; };
+		52132796037FDA95171AD3FA1AD7A954 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = pl.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		52CEDDD117BCBD68FF5F012097EA8B25 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = "en-AU.lproj/MCEmojiPickerLocalizable.strings"; sourceTree = "<group>"; };
+		535DE6358876FF104A7C1FF2866C92EB /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = ms.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		544C5F0AF9DEFF046F0B93E6B56A99A5 /* MCEmojiPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCEmojiPickerViewController.swift; path = Sources/MCEmojiPicker/View/MCEmojiPickerViewController.swift; sourceTree = "<group>"; };
+		581B9B49F15C6A553B04044A4242E87A /* MCEmojiPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCEmojiPicker-dummy.m"; sourceTree = "<group>"; };
+		5901E51BCCAD3C4F58BBA0F2D0B22D90 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = en.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		59D20095849C4D31633B92B9DE32D646 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = cs.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		5A7DD4CD9DE7CC5B49460871AE3E308B /* MCEmojiPicker-MCEmojiPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MCEmojiPicker-MCEmojiPicker"; path = MCEmojiPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEBDD82B5D30EDA5AB705886EC62853 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = "zh-Hant.lproj/MCEmojiPickerLocalizable.strings"; sourceTree = "<group>"; };
+		5CAD9E4A1D8892F7208FE6CABB6C1A24 /* MCEmojiPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MCEmojiPicker.modulemap; sourceTree = "<group>"; };
+		5CE12CE0A556B3CAE6A99EC6F3CDC7C3 /* MCEmojiPreviewBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCEmojiPreviewBackgroundView.swift; path = Sources/MCEmojiPicker/View/Views/EmojiPreviewView/MCEmojiPreviewBackgroundView.swift; sourceTree = "<group>"; };
+		6053B4D854D41A6BE48FB32EA9B21131 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = id.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		62D75F492438CABD550AA6B3AA7A391A /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = ja.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		6511CEEB96320BD49F120B403A60C60B /* Pods-iosWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		69E371E94DF5167E79ACF7EDC6F8149C /* Pods-dday-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dday-umbrella.h"; sourceTree = "<group>"; };
+		6ABCA79C646CF81207EC705F617BA6E3 /* Pods-iosOnlyShare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosOnlyShare.modulemap"; sourceTree = "<group>"; };
+		6B12FC4C133C0D45880C4725C9429EBB /* Pods-iosOnlyShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosOnlyShare.release.xcconfig"; sourceTree = "<group>"; };
+		6B2CA74774527489D7D1629D6E906224 /* MCEmoji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCEmoji.swift; path = Sources/MCEmojiPicker/Model/MCEmoji.swift; sourceTree = "<group>"; };
+		6DF7B5CD669747A5F1201975C82869D4 /* Pods-iosOnlyShare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosOnlyShare-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E62C74E728E7D039E472BD30A7EBA66 /* UICollectionReusableView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionReusableView+Extension.swift"; path = "Sources/MCEmojiPicker/Common/Extensions/UICollectionReusableView+Extension.swift"; sourceTree = "<group>"; };
+		6ECB634B6C8C29697557DEA9AE8EF628 /* MCEmojiPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCEmojiPicker-umbrella.h"; sourceTree = "<group>"; };
+		6ED830A284C7B2F19F25E1E135AD182A /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = el.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		6F33526AAA1DCDC29A45DB0E6768C21A /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = nl.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		701BFA17A9BD9158E933CCF647309976 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = it.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		791C37F5C4F2F35704F1272062E96FCD /* Pods-iosWidgetExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosWidgetExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C975B352EAD8D997BDCF15D422DF0F9 /* Pods-dday-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dday-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D7E37BC35EE9D5650D1351ACF2A8AA5 /* Pods-dday-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dday-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E0966A7E0ECE764C0ACB6F5AB12EEA2 /* MCEmojiPickerViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCEmojiPickerViewModel.swift; path = Sources/MCEmojiPicker/ViewModel/MCEmojiPickerViewModel.swift; sourceTree = "<group>"; };
+		7F7AD039C3652F35ACB3BE5D73DBAAA7 /* Pods-iosWidgetExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosWidgetExtension-dummy.m"; sourceTree = "<group>"; };
+		8CA7D58D131D4C8237F2B4FBDBF14A01 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = "es-419.lproj/MCEmojiPickerLocalizable.strings"; sourceTree = "<group>"; };
+		8EFB1CB4E941749DB80DDEF9A9A86BD0 /* Pods-iosOnlyShare-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosOnlyShare-Info.plist"; sourceTree = "<group>"; };
+		9155CE34E3A90ABA2A1462EA547BC79D /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = "en-GB.lproj/MCEmojiPickerLocalizable.strings"; sourceTree = "<group>"; };
+		9215F39985DB54E69E14674B24AE4A53 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = da.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		969FDCA470E7B244F07F4A8FF05D8B07 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = sv.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		97DE7C5F7DD40CB3CFE1AB117313C947 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = "pt-BR.lproj/MCEmojiPickerLocalizable.strings"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE5EDB3F1634C961C9EF225725889F0 /* Pods-iosOnlyShare */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iosOnlyShare"; path = Pods_iosOnlyShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E9C414D720C81DCF0A331E9CDCA0AD3 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = ca.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		9F014FDB99CC9F3431382493118B2EDC /* MCEmojiCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCEmojiCollectionViewCell.swift; path = Sources/MCEmojiPicker/View/Views/MCEmojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC8508C0DAB3DB9B2B0B7C697EB53267 /* MCEmojiPreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCEmojiPreviewView.swift; path = Sources/MCEmojiPicker/View/Views/EmojiPreviewView/MCEmojiPreviewView.swift; sourceTree = "<group>"; };
+		B2CC0CD0078F82B9CFE9929907B14373 /* NSNotification.Name+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNotification.Name+Extension.swift"; path = "Sources/MCEmojiPicker/Common/Extensions/NSNotification.Name+Extension.swift"; sourceTree = "<group>"; };
+		B7DE5A9E8A15A560E671D30513B8BE14 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = "en-IN.lproj/MCEmojiPickerLocalizable.strings"; sourceTree = "<group>"; };
+		B87D1C93E8EC32756A969B98B8E40A2E /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = ro.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		BC22B58C6DBA684D229A801AA2F7CC9E /* MCEmojiPickerRepresentableController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCEmojiPickerRepresentableController.swift; path = Sources/MCEmojiPicker/View/MCEmojiPickerRepresentableController.swift; sourceTree = "<group>"; };
+		BD41FFE52BBE546BAC3866384C43F4E4 /* MCEmojiSectionHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCEmojiSectionHeader.swift; path = Sources/MCEmojiPicker/View/Views/MCEmojiSectionHeader.swift; sourceTree = "<group>"; };
+		BDD4E9FD2AD8FE6F0589A3FB269C4163 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = "pt-PT.lproj/MCEmojiPickerLocalizable.strings"; sourceTree = "<group>"; };
+		BF929ADF0546232234C19526E8B2242C /* Pods-dday-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dday-Info.plist"; sourceTree = "<group>"; };
+		C1D54C0F8822C516974605095832A40D /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = es.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		C2F3546F7DA26462D79D9C02FEA7A023 /* MCEmojiCategoryIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCEmojiCategoryIconView.swift; path = Sources/MCEmojiPicker/View/Views/EmojiCategoryView/MCEmojiCategoryIconView.swift; sourceTree = "<group>"; };
+		C367CCF4581D1996F802AC44549F586B /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = fi.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		C4E875BA775F4A207A1C7F63631B8565 /* MCEmojiPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MCEmojiPicker; path = MCEmojiPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57682BAAA933F830AC3A0DFB16C7FF2 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = hr.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		C75A20E758A580409383CCD0EEA7E185 /* Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extension.swift"; path = "Sources/MCEmojiPicker/Common/Extensions/Bundle+Extension.swift"; sourceTree = "<group>"; };
+		C9180FB5AF38C2E57C529B7CCAB2D77E /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = hi.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		D151308835037C987F46CE8BE16F90C9 /* Pods-iosOnlyShare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosOnlyShare-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D65851D3361B4CDF6C31A03DB194DAD2 /* Pods-dday */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-dday"; path = Pods_dday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8500AF40074B1885F0A8B0E308C4F79 /* Pods-iosWidgetExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosWidgetExtension.modulemap"; sourceTree = "<group>"; };
+		D89AC87606D2A2809F18F372701903C8 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = tr.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		DBC1B2B025B904969E05491F5A156EB6 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = ru.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+		DCAB7D69B822794C9DBDF0F4FB150ECF /* ResourceBundle-MCEmojiPicker-MCEmojiPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MCEmojiPicker-MCEmojiPicker-Info.plist"; sourceTree = "<group>"; };
+		DD0AE67FB055C15D46136316554A9A30 /* MCEmojiCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCEmojiCategory.swift; path = Sources/MCEmojiPicker/Model/MCEmojiCategory.swift; sourceTree = "<group>"; };
+		DF6EC88E4375D2368C2804F833153D0E /* MCEmojiPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCEmojiPicker-prefix.pch"; sourceTree = "<group>"; };
+		DFE853FB81ECBEAF038A66062869A2F0 /* Pods-dday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dday.debug.xcconfig"; sourceTree = "<group>"; };
+		E26F5C67B08AC677073CF24A9E5B75EC /* Double+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+Extension.swift"; path = "Sources/MCEmojiPicker/Common/Extensions/Double+Extension.swift"; sourceTree = "<group>"; };
+		E61DF4C062359846D7EA69DD15B54502 /* MCEmojiPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MCEmojiPicker-Info.plist"; sourceTree = "<group>"; };
+		E9ED924B2D672EE81C331491F2735DEE /* Pods-iosWidgetExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosWidgetExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBB6C12458C913327F48F0E4499F21CD /* Pods-dday-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dday-dummy.m"; sourceTree = "<group>"; };
+		EE6FF3863BA1DA6A6140A0CC2160812B /* Pods-iosOnlyShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosOnlyShare-dummy.m"; sourceTree = "<group>"; };
+		F35B6F02DC7C67374C6ACE40E8410902 /* Pods-iosOnlyShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosOnlyShare.debug.xcconfig"; sourceTree = "<group>"; };
+		F36C4ECDB5AE3161403938D1F40B5383 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = "fr-CA.lproj/MCEmojiPickerLocalizable.strings"; sourceTree = "<group>"; };
+		F72E32F476FB06DFE88C58AA9A58CBC2 /* MCEmojiPickerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MCEmojiPickerLocalizable.strings; path = uk.lproj/MCEmojiPickerLocalizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17A654520EA2DA704B84E3F56D228211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B6B1FBA2912B1F84CCDF49EC0C7153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F3CB4BFFD8AED8FB88451C7A136907 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8803887CDB10ABF05F55E9AFCD02C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02358D9BD1EA48D659DE07C2F4F051D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7575D4C228186D7DE5B7D3682D1414E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5AF15E40664259F9737F4D48091BBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E2D440D9E7335FFF8BF27E1A78E478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87E4CE6E5E1CC9472E85786DB0CD7D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D54893114A6FDDA4F12529DEC8FBBD9 /* Pods-iosWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D8500AF40074B1885F0A8B0E308C4F79 /* Pods-iosWidgetExtension.modulemap */,
+				E9ED924B2D672EE81C331491F2735DEE /* Pods-iosWidgetExtension-acknowledgements.markdown */,
+				791C37F5C4F2F35704F1272062E96FCD /* Pods-iosWidgetExtension-acknowledgements.plist */,
+				7F7AD039C3652F35ACB3BE5D73DBAAA7 /* Pods-iosWidgetExtension-dummy.m */,
+				516311619F5D52CC3DD90F0F0FE94F5E /* Pods-iosWidgetExtension-Info.plist */,
+				48FC4A46096AB1555A2EFF7C35C02E22 /* Pods-iosWidgetExtension-umbrella.h */,
+				6511CEEB96320BD49F120B403A60C60B /* Pods-iosWidgetExtension.debug.xcconfig */,
+				133EEF6BB0A484F798CAED4EDB935E87 /* Pods-iosWidgetExtension.release.xcconfig */,
+			);
+			name = "Pods-iosWidgetExtension";
+			path = "Target Support Files/Pods-iosWidgetExtension";
+			sourceTree = "<group>";
+		};
+		523FD30E906D3B5528FA95C2BB404A26 /* MCEmojiPicker */ = {
+			isa = PBXGroup;
+			children = (
+				32E7C4CC10C9BB46F2FBB465627C526A /* Array+Extension.swift */,
+				C75A20E758A580409383CCD0EEA7E185 /* Bundle+Extension.swift */,
+				E26F5C67B08AC677073CF24A9E5B75EC /* Double+Extension.swift */,
+				6B2CA74774527489D7D1629D6E906224 /* MCEmoji.swift */,
+				DD0AE67FB055C15D46136316554A9A30 /* MCEmojiCategory.swift */,
+				C2F3546F7DA26462D79D9C02FEA7A023 /* MCEmojiCategoryIconView.swift */,
+				9F014FDB99CC9F3431382493118B2EDC /* MCEmojiCollectionViewCell.swift */,
+				BC22B58C6DBA684D229A801AA2F7CC9E /* MCEmojiPickerRepresentableController.swift */,
+				2BC8F7431BD1C979716CA4D19F79B061 /* MCEmojiPickerView.swift */,
+				544C5F0AF9DEFF046F0B93E6B56A99A5 /* MCEmojiPickerViewController.swift */,
+				7E0966A7E0ECE764C0ACB6F5AB12EEA2 /* MCEmojiPickerViewModel.swift */,
+				5CE12CE0A556B3CAE6A99EC6F3CDC7C3 /* MCEmojiPreviewBackgroundView.swift */,
+				AC8508C0DAB3DB9B2B0B7C697EB53267 /* MCEmojiPreviewView.swift */,
+				BD41FFE52BBE546BAC3866384C43F4E4 /* MCEmojiSectionHeader.swift */,
+				0B3676BCE8F1C63C86F7F5035057BA6F /* MCEmojiSkinTonePickerBackgroundView.swift */,
+				17B6C1F4462050327E5CC4C8AEAC43B8 /* MCEmojiSkinTonePickerContainerView.swift */,
+				307E2A1F7E16CE8E733CA8FE8015AA50 /* MCEmojiSkinTonePickerView.swift */,
+				1CD4AF78CB59496B1C5314C225507EAD /* MCPickerArrowDirection.swift */,
+				297C2FA2DB497147003C4C7EF236E365 /* MCTouchableEmojiCategoryView.swift */,
+				4DDFFCBDD98C6BC57451C044A0C5EE27 /* MCUnicodeManager.swift */,
+				B2CC0CD0078F82B9CFE9929907B14373 /* NSNotification.Name+Extension.swift */,
+				2A92B84D7A1DEBB956692682760B1CA9 /* Observable.swift */,
+				6E62C74E728E7D039E472BD30A7EBA66 /* UICollectionReusableView+Extension.swift */,
+				261B6C9FE77F317B85319F6962BF5B65 /* UIColor+Extension.swift */,
+				295BCEF31C8FA10B6A604D805E3747CD /* View+Extension.swift */,
+				FA9BEC6F7ED1FC96A6F0DF53EEAA30D8 /* Resources */,
+				E20B4FE789AA93591F7BBC771C075855 /* Support Files */,
+			);
+			name = MCEmojiPicker;
+			path = MCEmojiPicker;
+			sourceTree = "<group>";
+		};
+		7ED780A4379C356A201470FA338D3A0C /* Pods-iosOnlyShare */ = {
+			isa = PBXGroup;
+			children = (
+				6ABCA79C646CF81207EC705F617BA6E3 /* Pods-iosOnlyShare.modulemap */,
+				D151308835037C987F46CE8BE16F90C9 /* Pods-iosOnlyShare-acknowledgements.markdown */,
+				6DF7B5CD669747A5F1201975C82869D4 /* Pods-iosOnlyShare-acknowledgements.plist */,
+				EE6FF3863BA1DA6A6140A0CC2160812B /* Pods-iosOnlyShare-dummy.m */,
+				8EFB1CB4E941749DB80DDEF9A9A86BD0 /* Pods-iosOnlyShare-Info.plist */,
+				13ABE06A2E3058B64E7D5C3C80BC9564 /* Pods-iosOnlyShare-umbrella.h */,
+				F35B6F02DC7C67374C6ACE40E8410902 /* Pods-iosOnlyShare.debug.xcconfig */,
+				6B12FC4C133C0D45880C4725C9429EBB /* Pods-iosOnlyShare.release.xcconfig */,
+			);
+			name = "Pods-iosOnlyShare";
+			path = "Target Support Files/Pods-iosOnlyShare";
+			sourceTree = "<group>";
+		};
+		9594C0D45C5376A6C2959F95225EA5C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E875BA775F4A207A1C7F63631B8565 /* MCEmojiPicker */,
+				5A7DD4CD9DE7CC5B49460871AE3E308B /* MCEmojiPicker-MCEmojiPicker */,
+				D65851D3361B4CDF6C31A03DB194DAD2 /* Pods-dday */,
+				9DE5EDB3F1634C961C9EF225725889F0 /* Pods-iosOnlyShare */,
+				27CC23436C019BE6B6182B7EFC5E4C9E /* Pods-iosWidgetExtension */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B596C69EF09AC207EC6225D393FBD06C /* Pods-dday */ = {
+			isa = PBXGroup;
+			children = (
+				2A27447911C8C3299282AF431621D166 /* Pods-dday.modulemap */,
+				7C975B352EAD8D997BDCF15D422DF0F9 /* Pods-dday-acknowledgements.markdown */,
+				7D7E37BC35EE9D5650D1351ACF2A8AA5 /* Pods-dday-acknowledgements.plist */,
+				EBB6C12458C913327F48F0E4499F21CD /* Pods-dday-dummy.m */,
+				0E9FE6DFD15D82E201FAC74461215C55 /* Pods-dday-frameworks.sh */,
+				BF929ADF0546232234C19526E8B2242C /* Pods-dday-Info.plist */,
+				69E371E94DF5167E79ACF7EDC6F8149C /* Pods-dday-umbrella.h */,
+				DFE853FB81ECBEAF038A66062869A2F0 /* Pods-dday.debug.xcconfig */,
+				13F27A01C95FF203FF1BF901908CCE6E /* Pods-dday.release.xcconfig */,
+			);
+			name = "Pods-dday";
+			path = "Target Support Files/Pods-dday";
+			sourceTree = "<group>";
+		};
+		C9C4386772BD6914274F4A94ED5BD409 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B596C69EF09AC207EC6225D393FBD06C /* Pods-dday */,
+				7ED780A4379C356A201470FA338D3A0C /* Pods-iosOnlyShare */,
+				1D54893114A6FDDA4F12529DEC8FBBD9 /* Pods-iosWidgetExtension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F0E973822E928F1FBCD0675AA903B0EA /* Pods */,
+				9594C0D45C5376A6C2959F95225EA5C1 /* Products */,
+				C9C4386772BD6914274F4A94ED5BD409 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20B4FE789AA93591F7BBC771C075855 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CAD9E4A1D8892F7208FE6CABB6C1A24 /* MCEmojiPicker.modulemap */,
+				581B9B49F15C6A553B04044A4242E87A /* MCEmojiPicker-dummy.m */,
+				E61DF4C062359846D7EA69DD15B54502 /* MCEmojiPicker-Info.plist */,
+				DF6EC88E4375D2368C2804F833153D0E /* MCEmojiPicker-prefix.pch */,
+				6ECB634B6C8C29697557DEA9AE8EF628 /* MCEmojiPicker-umbrella.h */,
+				1104151E4E48ABBB53EC5DAA42C66729 /* MCEmojiPicker.debug.xcconfig */,
+				2913BA69C2A3A78135BAAF047BA4326D /* MCEmojiPicker.release.xcconfig */,
+				DCAB7D69B822794C9DBDF0F4FB150ECF /* ResourceBundle-MCEmojiPicker-MCEmojiPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MCEmojiPicker";
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F0E973822E928F1FBCD0675AA903B0EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				523FD30E906D3B5528FA95C2BB404A26 /* MCEmojiPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA9BEC6F7ED1FC96A6F0DF53EEAA30D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E13D54A5D74D978254E33A84F9FE439 /* MCEmojiPickerLocalizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16E25709AC1A857FE6C948D9730ADC97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EF29D15495F31FC2F54335E292E1AD /* Pods-iosWidgetExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322B3E3E36E9BF6D15E61B792F925CE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1BD108F1ECE14E8730559E7ECCAF1C /* Pods-iosOnlyShare-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F218FC545AFE255FD243CF74D8BA7EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9A64F419033EEF34254D5FCCFECDEC /* Pods-dday-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59B188C0A96F7DD7211E4C398ACFB4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB854693193D03816AA4807394DE34B /* MCEmojiPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D5F39FC341979BE00CFA50BF67F8FE8 /* MCEmojiPicker-MCEmojiPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C4A99C5D1E70728EA457CFAA30AB8B7 /* Build configuration list for PBXNativeTarget "MCEmojiPicker-MCEmojiPicker" */;
+			buildPhases = (
+				54A760F45711B18606A5AACBCB95CB4C /* Sources */,
+				17A654520EA2DA704B84E3F56D228211 /* Frameworks */,
+				BFBD273D5FA33935C9F68A94FE5309BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MCEmojiPicker-MCEmojiPicker";
+			productName = MCEmojiPicker;
+			productReference = 5A7DD4CD9DE7CC5B49460871AE3E308B /* MCEmojiPicker-MCEmojiPicker */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3CEEC8BA6A82A75D70DFE213AE521F85 /* Pods-dday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8BA60F682CCDB7F0DEFD2DFE86EA575 /* Build configuration list for PBXNativeTarget "Pods-dday" */;
+			buildPhases = (
+				6F218FC545AFE255FD243CF74D8BA7EE /* Headers */,
+				1261ADC09574A1B37FEC9A97415DF9A4 /* Sources */,
+				C0E2D440D9E7335FFF8BF27E1A78E478 /* Frameworks */,
+				DE7AF22991AA4B06367A0A280C6A2BE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C67D5194E60F86DEB53E4D84577E3B91 /* PBXTargetDependency */,
+			);
+			name = "Pods-dday";
+			productName = Pods_dday;
+			productReference = D65851D3361B4CDF6C31A03DB194DAD2 /* Pods-dday */;
+			productType = "com.apple.product-type.framework";
+		};
+		79D48E72EB30A5C77F05CB18E7236496 /* Pods-iosWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E08F96CC02278985EF3EEEE1DB728381 /* Build configuration list for PBXNativeTarget "Pods-iosWidgetExtension" */;
+			buildPhases = (
+				16E25709AC1A857FE6C948D9730ADC97 /* Headers */,
+				400E16D4B8CF3EE3ADBE211CCC011985 /* Sources */,
+				B7575D4C228186D7DE5B7D3682D1414E /* Frameworks */,
+				92CDD1454249439BAEA0AA5A44E83B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iosWidgetExtension";
+			productName = Pods_iosWidgetExtension;
+			productReference = 27CC23436C019BE6B6182B7EFC5E4C9E /* Pods-iosWidgetExtension */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FA2ECB5AE1673A5F6A7B807F48A86ED /* Pods-iosOnlyShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36584BFD7C44324B414503E884B6B770 /* Build configuration list for PBXNativeTarget "Pods-iosOnlyShare" */;
+			buildPhases = (
+				322B3E3E36E9BF6D15E61B792F925CE7 /* Headers */,
+				BECC77DF9E7E406BA137836EF4315D22 /* Sources */,
+				96B6B1FBA2912B1F84CCDF49EC0C7153 /* Frameworks */,
+				EBFFD7343286A3E48FA39B6F2176DA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iosOnlyShare";
+			productName = Pods_iosOnlyShare;
+			productReference = 9DE5EDB3F1634C961C9EF225725889F0 /* Pods-iosOnlyShare */;
+			productType = "com.apple.product-type.framework";
+		};
+		D036A9C888B2B93E7063E79B47806DC7 /* MCEmojiPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC5E76EC1A8A4D682598319C5436B68 /* Build configuration list for PBXNativeTarget "MCEmojiPicker" */;
+			buildPhases = (
+				D59B188C0A96F7DD7211E4C398ACFB4D /* Headers */,
+				F9B512E4DB164BA55604269E81B1A6B7 /* Sources */,
+				AB8803887CDB10ABF05F55E9AFCD02C5 /* Frameworks */,
+				C213789204F6659B5ED4C304B5D76BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2EA504075FBC9E9E87CA03545D81B17 /* PBXTargetDependency */,
+			);
+			name = MCEmojiPicker;
+			productName = MCEmojiPicker;
+			productReference = C4E875BA775F4A207A1C7F63631B8565 /* MCEmojiPicker */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ar,
+				ca,
+				cs,
+				da,
+				de,
+				el,
+				en,
+				"en-AU",
+				"en-GB",
+				"en-IN",
+				es,
+				"es-419",
+				fi,
+				fr,
+				"fr-CA",
+				he,
+				hi,
+				hr,
+				hu,
+				id,
+				it,
+				ja,
+				ko,
+				ms,
+				nb,
+				nl,
+				pl,
+				"pt-BR",
+				"pt-PT",
+				ro,
+				ru,
+				sk,
+				sv,
+				th,
+				tr,
+				uk,
+				vi,
+				"zh-HK",
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9594C0D45C5376A6C2959F95225EA5C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D036A9C888B2B93E7063E79B47806DC7 /* MCEmojiPicker */,
+				0D5F39FC341979BE00CFA50BF67F8FE8 /* MCEmojiPicker-MCEmojiPicker */,
+				3CEEC8BA6A82A75D70DFE213AE521F85 /* Pods-dday */,
+				9FA2ECB5AE1673A5F6A7B807F48A86ED /* Pods-iosOnlyShare */,
+				79D48E72EB30A5C77F05CB18E7236496 /* Pods-iosWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92CDD1454249439BAEA0AA5A44E83B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBD273D5FA33935C9F68A94FE5309BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9386D70A712B4572BC9517EB59A9677B /* MCEmojiPickerLocalizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C213789204F6659B5ED4C304B5D76BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D96E94031FD398520E01D94689240CF /* MCEmojiPicker-MCEmojiPicker in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7AF22991AA4B06367A0A280C6A2BE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBFFD7343286A3E48FA39B6F2176DA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1261ADC09574A1B37FEC9A97415DF9A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D440B90CFCA67E327F8A5D55B4693D51 /* Pods-dday-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		400E16D4B8CF3EE3ADBE211CCC011985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58F05DC00C3B33D6B76475296AB6DFB /* Pods-iosWidgetExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A760F45711B18606A5AACBCB95CB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BECC77DF9E7E406BA137836EF4315D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74AA88395B36CDDD3E28AA531803503 /* Pods-iosOnlyShare-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B512E4DB164BA55604269E81B1A6B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652C1E20F6B37202665B0A0C50DBE0C5 /* Array+Extension.swift in Sources */,
+				17718B2616E635026982DCA173C8D41F /* Bundle+Extension.swift in Sources */,
+				DD12DAA48944064B35320A4D0525D7E5 /* Double+Extension.swift in Sources */,
+				96F15C8A85DD563A586F71FA9558AFE3 /* MCEmoji.swift in Sources */,
+				B522B10CCFBBA2D876398C6E305492F8 /* MCEmojiCategory.swift in Sources */,
+				D63A082EC2991C48D1E3A5DB7CFDF532 /* MCEmojiCategoryIconView.swift in Sources */,
+				A5D5699490FCD6736345067811B037DC /* MCEmojiCollectionViewCell.swift in Sources */,
+				933A92144AB2A20488AB26E1EC379B94 /* MCEmojiPicker-dummy.m in Sources */,
+				70F1F30232AEC179FEE9FFDBA35500F0 /* MCEmojiPickerRepresentableController.swift in Sources */,
+				0CE7B3FD0A76F7B713B214E33ECE50EA /* MCEmojiPickerView.swift in Sources */,
+				C8624B717F0138CAF686405FFA2EEE22 /* MCEmojiPickerViewController.swift in Sources */,
+				FE0E2BED06967216D6B03BEB686AFC12 /* MCEmojiPickerViewModel.swift in Sources */,
+				870F1BD615296003180386944BD1E5E6 /* MCEmojiPreviewBackgroundView.swift in Sources */,
+				1394891F3C78C6EE1C9E9ACD82902F69 /* MCEmojiPreviewView.swift in Sources */,
+				F42E072063AC5D16761B8EEFAB0AE870 /* MCEmojiSectionHeader.swift in Sources */,
+				83A9ABCB3C557FD2E80972CB1DC473A6 /* MCEmojiSkinTonePickerBackgroundView.swift in Sources */,
+				3FD530EA050C0A0973D72FB94935A738 /* MCEmojiSkinTonePickerContainerView.swift in Sources */,
+				D48D64DBFD357308B3EAA360CA28164A /* MCEmojiSkinTonePickerView.swift in Sources */,
+				5F8F953732EBDC9F3F5D4D8D036E5945 /* MCPickerArrowDirection.swift in Sources */,
+				0DC2BBE155C867BFD29BD747BA38B7C0 /* MCTouchableEmojiCategoryView.swift in Sources */,
+				FA1164818D29BFEB434D46073C400961 /* MCUnicodeManager.swift in Sources */,
+				B6FF4273DC7D4B45F4BB52992BC8E55D /* NSNotification.Name+Extension.swift in Sources */,
+				8E0F21F34F4B697374CA25ABC673B06E /* Observable.swift in Sources */,
+				77CF2237F9F6885AA7AC03935A892A9B /* UICollectionReusableView+Extension.swift in Sources */,
+				B997A64F4BF21AD6BAA8611DBCE3ABC9 /* UIColor+Extension.swift in Sources */,
+				6D7D32409E0F9B372BE2B1B824BD5B52 /* View+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2EA504075FBC9E9E87CA03545D81B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MCEmojiPicker-MCEmojiPicker";
+			target = 0D5F39FC341979BE00CFA50BF67F8FE8 /* MCEmojiPicker-MCEmojiPicker */;
+			targetProxy = 4F1F78993338DDE12B1E71632F68C677 /* PBXContainerItemProxy */;
+		};
+		C67D5194E60F86DEB53E4D84577E3B91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MCEmojiPicker;
+			target = D036A9C888B2B93E7063E79B47806DC7 /* MCEmojiPicker */;
+			targetProxy = 85E19A871971485B30C5E25AD1C78660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E13D54A5D74D978254E33A84F9FE439 /* MCEmojiPickerLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4126E9DC4F615187C4E893132E068346 /* MCEmojiPickerLocalizable.strings */,
+				9E9C414D720C81DCF0A331E9CDCA0AD3 /* MCEmojiPickerLocalizable.strings */,
+				59D20095849C4D31633B92B9DE32D646 /* MCEmojiPickerLocalizable.strings */,
+				9215F39985DB54E69E14674B24AE4A53 /* MCEmojiPickerLocalizable.strings */,
+				1BE9E330FFE693DF0B6C5B75A9CE4F34 /* MCEmojiPickerLocalizable.strings */,
+				6ED830A284C7B2F19F25E1E135AD182A /* MCEmojiPickerLocalizable.strings */,
+				52CEDDD117BCBD68FF5F012097EA8B25 /* MCEmojiPickerLocalizable.strings */,
+				9155CE34E3A90ABA2A1462EA547BC79D /* MCEmojiPickerLocalizable.strings */,
+				B7DE5A9E8A15A560E671D30513B8BE14 /* MCEmojiPickerLocalizable.strings */,
+				5901E51BCCAD3C4F58BBA0F2D0B22D90 /* MCEmojiPickerLocalizable.strings */,
+				8CA7D58D131D4C8237F2B4FBDBF14A01 /* MCEmojiPickerLocalizable.strings */,
+				C1D54C0F8822C516974605095832A40D /* MCEmojiPickerLocalizable.strings */,
+				C367CCF4581D1996F802AC44549F586B /* MCEmojiPickerLocalizable.strings */,
+				F36C4ECDB5AE3161403938D1F40B5383 /* MCEmojiPickerLocalizable.strings */,
+				2C213D3694E69A9D29C41CAF728C4787 /* MCEmojiPickerLocalizable.strings */,
+				3E3685108281B5E719B70D51141C57E2 /* MCEmojiPickerLocalizable.strings */,
+				C9180FB5AF38C2E57C529B7CCAB2D77E /* MCEmojiPickerLocalizable.strings */,
+				C57682BAAA933F830AC3A0DFB16C7FF2 /* MCEmojiPickerLocalizable.strings */,
+				1579A29E8560D51FB8C2FF021BC5C608 /* MCEmojiPickerLocalizable.strings */,
+				6053B4D854D41A6BE48FB32EA9B21131 /* MCEmojiPickerLocalizable.strings */,
+				701BFA17A9BD9158E933CCF647309976 /* MCEmojiPickerLocalizable.strings */,
+				62D75F492438CABD550AA6B3AA7A391A /* MCEmojiPickerLocalizable.strings */,
+				335FD84A46059C942C2323518D5A6D5F /* MCEmojiPickerLocalizable.strings */,
+				535DE6358876FF104A7C1FF2866C92EB /* MCEmojiPickerLocalizable.strings */,
+				2EA93C69ED2EBA51C92442DB5D56D902 /* MCEmojiPickerLocalizable.strings */,
+				6F33526AAA1DCDC29A45DB0E6768C21A /* MCEmojiPickerLocalizable.strings */,
+				52132796037FDA95171AD3FA1AD7A954 /* MCEmojiPickerLocalizable.strings */,
+				97DE7C5F7DD40CB3CFE1AB117313C947 /* MCEmojiPickerLocalizable.strings */,
+				BDD4E9FD2AD8FE6F0589A3FB269C4163 /* MCEmojiPickerLocalizable.strings */,
+				B87D1C93E8EC32756A969B98B8E40A2E /* MCEmojiPickerLocalizable.strings */,
+				DBC1B2B025B904969E05491F5A156EB6 /* MCEmojiPickerLocalizable.strings */,
+				1612DFA32D949112C7A62AC524EA3224 /* MCEmojiPickerLocalizable.strings */,
+				969FDCA470E7B244F07F4A8FF05D8B07 /* MCEmojiPickerLocalizable.strings */,
+				4CCA8B3EEFDE34814FA033E237B6A4DD /* MCEmojiPickerLocalizable.strings */,
+				D89AC87606D2A2809F18F372701903C8 /* MCEmojiPickerLocalizable.strings */,
+				F72E32F476FB06DFE88C58AA9A58CBC2 /* MCEmojiPickerLocalizable.strings */,
+				40642B55439BD90207D8BF011FBDA7D9 /* MCEmojiPickerLocalizable.strings */,
+				0C43C3AB50836EF930F83CD01364A9C6 /* MCEmojiPickerLocalizable.strings */,
+				5BEBDD82B5D30EDA5AB705886EC62853 /* MCEmojiPickerLocalizable.strings */,
+				17B45969FD499BBD0FF111659BDF03B8 /* MCEmojiPickerLocalizable.strings */,
+			);
+			name = MCEmojiPickerLocalizable.strings;
+			path = Sources/MCEmojiPicker/Resources/Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31EC13941F9985591B8156F1EAC4346F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35B6F02DC7C67374C6ACE40E8410902 /* Pods-iosOnlyShare.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-iosOnlyShare/Pods-iosOnlyShare-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosOnlyShare/Pods-iosOnlyShare.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4323EBE44A8E42EB75A0C092A171EC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1104151E4E48ABBB53EC5DAA42C66729 /* MCEmojiPicker.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MCEmojiPicker";
+				IBSC_MODULE = MCEmojiPicker;
+				INFOPLIST_FILE = "Target Support Files/MCEmojiPicker/ResourceBundle-MCEmojiPicker-MCEmojiPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = MCEmojiPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5DBAF1419C76263443840113C2E68E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F27A01C95FF203FF1BF901908CCE6E /* Pods-dday.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-dday/Pods-dday-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dday/Pods-dday.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66862593B6A253B96776F35FABEE8AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6511CEEB96320BD49F120B403A60C60B /* Pods-iosWidgetExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-iosWidgetExtension/Pods-iosWidgetExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosWidgetExtension/Pods-iosWidgetExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DA286F799B44F93CE44EF1F42F61B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B12FC4C133C0D45880C4725C9429EBB /* Pods-iosOnlyShare.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-iosOnlyShare/Pods-iosOnlyShare-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosOnlyShare/Pods-iosOnlyShare.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B46F85B46669C7A3DE5359A826828F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2913BA69C2A3A78135BAAF047BA4326D /* MCEmojiPicker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MCEmojiPicker/MCEmojiPicker-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MCEmojiPicker/MCEmojiPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MCEmojiPicker/MCEmojiPicker.modulemap";
+				PRODUCT_MODULE_NAME = MCEmojiPicker;
+				PRODUCT_NAME = MCEmojiPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B86D71A5E7AB53EB2C08DEA39FBD2050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BD5E84F7B72D348654A4D58B6BA51118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C94DC49214C9285F7F8272602AE140BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE853FB81ECBEAF038A66062869A2F0 /* Pods-dday.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-dday/Pods-dday-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dday/Pods-dday.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDD9E254D934468D5CC0C1DE6B025C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1104151E4E48ABBB53EC5DAA42C66729 /* MCEmojiPicker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MCEmojiPicker/MCEmojiPicker-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MCEmojiPicker/MCEmojiPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MCEmojiPicker/MCEmojiPicker.modulemap";
+				PRODUCT_MODULE_NAME = MCEmojiPicker;
+				PRODUCT_NAME = MCEmojiPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E66647FF6BE625D9372CA6C3C9618CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133EEF6BB0A484F798CAED4EDB935E87 /* Pods-iosWidgetExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-iosWidgetExtension/Pods-iosWidgetExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iosWidgetExtension/Pods-iosWidgetExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F04B0A082F9E2039D9D6CE6625D798AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2913BA69C2A3A78135BAAF047BA4326D /* MCEmojiPicker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MCEmojiPicker";
+				IBSC_MODULE = MCEmojiPicker;
+				INFOPLIST_FILE = "Target Support Files/MCEmojiPicker/ResourceBundle-MCEmojiPicker-MCEmojiPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = MCEmojiPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36584BFD7C44324B414503E884B6B770 /* Build configuration list for PBXNativeTarget "Pods-iosOnlyShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31EC13941F9985591B8156F1EAC4346F /* Debug */,
+				9DA286F799B44F93CE44EF1F42F61B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5E84F7B72D348654A4D58B6BA51118 /* Debug */,
+				B86D71A5E7AB53EB2C08DEA39FBD2050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C4A99C5D1E70728EA457CFAA30AB8B7 /* Build configuration list for PBXNativeTarget "MCEmojiPicker-MCEmojiPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4323EBE44A8E42EB75A0C092A171EC9B /* Debug */,
+				F04B0A082F9E2039D9D6CE6625D798AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8BA60F682CCDB7F0DEFD2DFE86EA575 /* Build configuration list for PBXNativeTarget "Pods-dday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94DC49214C9285F7F8272602AE140BD /* Debug */,
+				5DBAF1419C76263443840113C2E68E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFC5E76EC1A8A4D682598319C5436B68 /* Build configuration list for PBXNativeTarget "MCEmojiPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD9E254D934468D5CC0C1DE6B025C1F /* Debug */,
+				B46F85B46669C7A3DE5359A826828F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E08F96CC02278985EF3EEEE1DB728381 /* Build configuration list for PBXNativeTarget "Pods-iosWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66862593B6A253B96776F35FABEE8AC4 /* Debug */,
+				E66647FF6BE625D9372CA6C3C9618CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
